@@ -27,7 +27,7 @@ spec:
         app: httpd
     spec:
       containers:
-      - image: rhscl/httpd-24-rhel7
+      - image: docker.io/centos/httpd-24-centos7
         imagePullPolicy: Always
         name: httpd
         ports:
