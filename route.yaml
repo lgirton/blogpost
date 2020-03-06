@@ -7,7 +7,6 @@ metadata:
   labels:
     app: httpd
   name: httpd
-  selfLink: /apis/route.openshift.io/v1/namespaces/simple-app/routes/httpd
 spec:
   host: httpd-simple-app.192.168.64.5.nip.io
   port:
