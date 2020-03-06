@@ -8,7 +8,6 @@ metadata:
     app: httpd
   name: httpd
 spec:
-  host: httpd-simple-app.192.168.64.5.nip.io
   port:
     targetPort: 8080
   subdomain: ""
